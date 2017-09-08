@@ -7,49 +7,55 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	<link rel="stylesheet" type="text/css" href="css/sidenav.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slideshow.css"/>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
 	 <script src="js/sidenav.js"></script> 
 </head>
 
 <body>
 
+
+
+	<!-- nav mobile -->
+	<div id="mySidenav" class="sidenav">
+	  <div class='sidenav-container'>
+		  <a href="#">olá</a>
+		  <hr/>
+		  <a href="#">destinos</a>
+		  <a href="#">experiências</a>
+		  <a href="#">store</a>
+		  <a href="#">ofereça</a>
+		  <a href="#">contato</a>
+		  <hr/>
+		  <div class='sidenav-spacer'>
+		  		<a href="#">sign&nbsp;in</a>
+		  		<img src='img/icon/person.png' alt=''/>
+		  </div>
+		  <div class='sidenav-spacer'>
+			  <a href="#">carrinho</a>
+			  <img src='img/icon/carrinho.png' alt=''/>
+		  </div>
+		  <hr/>
+		  <div class='sidenav-spacer'>
+		  		<a href="#">language</a>
+		  		<a href="#">pt&nbsp;</a>
+		  </div>	  
+		</div>
+	</div>
+
+	<div id='content'>
+	<div class='nav-mobile'>
+		<!--<img src='img/icon/menu.png' alt='' />-->
+		<img src='img/seta.png' alt='' id='seta' onclick="openNav()"/>
+		<!--<img src='img/icon/person.png' alt=''/>-->
+	</div>
 	<header>
 		<!-- 
 		<span style="position: absolute; z-index: 4;" onclick="openNav()">open</span>
 		-->
-		<div class='nav-mobile'>
-			<!--<img src='img/icon/menu.png' alt='' />-->
-			<img src='img/seta.png' alt='' id='seta' onclick="openNav()"/>
-			<!--<img src='img/icon/person.png' alt=''/>-->
-		</div>
-
-
-		<!-- nav mobile -->
-		<div id="mySidenav" class="sidenav">
-		  <div class='sidenav-container'>
-			  <a href="#">olá</a>
-			  <hr/>
-			  <a href="#">destinos</a>
-			  <a href="#">experiências</a>
-			  <a href="#">store</a>
-			  <a href="#">ofereça</a>
-			  <a href="#">contato</a>
-			  <hr/>
-			  <div class='sidenav-spacer'>
-			  		<a href="#">sign&nbsp;in</a>
-			  		<img src='img/icon/person.png' alt=''/>
-			  </div>
-			  <div class='sidenav-spacer'>
-				  <a href="#">carrinho</a>
-				  <img src='img/icon/carrinho.png' alt=''/>
-			  </div>
-			  <hr/>
-			  <div class='sidenav-spacer'>
-			  		<a href="#">language</a>
-			  		<a href="#">pt&nbsp;</a>
-			  </div>
-			  
-		  </div>
-		</div>
+		
 		<!-- slideshow -->
 		<ul class='slideshow'>
 			<li><span>Image 01</span><div class='ajuste'><h3>experimente</h3></div></li>
@@ -148,6 +154,8 @@
 			<span>@experimente</span>
 		</footer>
 	</div>
+
+	</div><!-- fim do content -->
 
 </body>
 

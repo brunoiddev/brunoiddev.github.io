@@ -1,0 +1,257 @@
+@font-face {
+    font-family: helveticaUL;
+    src: url(../fonts/HelveticaNeueLTStd-UltLt.otf);
+}
+@font-face {
+	font-family: robotoLight;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: helveticaT;
+	src: url(../fonts/HelveticaNeueLTStd-Th.otf);
+}
+
+html, body, h1, ul, li, h1, h2, h3, h4, p, img {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	margin: 0 2%;
+	border: none;
+    height: 1px;
+    background-color: #EAEAEA
+}
+
+header {
+	height: 100vh;
+}
+
+.nav-mobile {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 15;
+	/*background-color: rgba(0, 0, 0, 0.4)*/;
+
+}
+#seta {
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.nav-mobile img {
+	padding: 15px;
+	text-align: center;
+	height: 42px;
+	width: auto;
+}
+
+
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* home */
+/* bem vindo */
+#home-bemvindo {
+	display: flex;
+	justify-content: flex-center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 40px 0 40px 0;
+	padding: 0;
+}
+
+#home-bemvindo img {
+	height: 24px;
+	width: auto;
+	padding-bottom: 40px;
+}
+#home-bemvindo h3 {
+	font-family: helveticaUL;
+	letter-spacing: 4px;
+	font-size: 36px;
+	font-weight: 200;
+	color: #A4A6A9;
+}
+
+#home-bemvindo p {
+	padding: 35px 20px;
+	font-family: robotoLight;
+	color: #A4A6A9;
+	font-size: 16px;
+}
+
+#home-bemvindo button {
+	color: #A4A6A9;
+	font-family: robotoLight;
+	font-size: 14px;
+	padding: 5px 20px;
+	margin: 0 10px;
+	background-color: #FFF;
+	border: 1px solid #A4A6A9;
+	width: 120px;
+}
+
+#home-bemvindo button:hover {
+	background-color: #D31C5C;
+	color: #FFF;
+	border: 1px solid #D31C5C;
+}
+
+/* destaque */
+#home-destaque {
+	margin: 15px 0 10px 0;
+	text-align: center;
+
+}
+#home-destaque h4{
+	padding: 10px 0;
+	font-family: helveticaUL;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #A4A6A9;
+}
+
+.home-destaque-row {
+	display: flex;
+	margin: 4% 0;
+}
+
+
+
+
+.container-img-mask {
+	margin: 0 2%;
+	position: relative;
+	display: flex;
+	flex-direction
+	justify-content: space-between;
+	text-align: center;
+	width: 100%;
+
+}
+.container-img-mask .mask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	box-sizing: border-box;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+	background: -moz-linear-gradient(45deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+}
+.container-img-mask .text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	font-family: robotoLight;
+	font-weight: 600;
+	color: #FFF;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.container-img-mask .novidade-text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 20px;
+	font-family: helveticaT;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	color: #FFF;
+	display: flex;
+	text-align: left;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	bottom: -30%;
+}
+
+.container-img-mask img{
+	width: 100%;
+	height: 100%;
+}
+
+#novidades {
+	margin: 15px 0 50px 0;
+	text-align: center;
+}
+#novidades h4{
+	padding: 10px 0;
+	font-family: helveticaUL;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #A4A6A9;
+}
+
+#home-mapa a {
+	font-family: robotoLight;
+	font-weight: 700;
+	color: #A4A6A9;
+	text-decoration: none;
+}
+#home-mapa hr {
+	margin: 10px 0;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+footer img {
+	width: 24px;
+	height: 24px;
+	padding: 0 15px 0 0;
+}
+footer span {
+	padding: 10px 0;
+	font-family: helveticaUL;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #A4A6A9;
+
+}
+
+/*
+#home-destaque {
+	padding: 50px 0;
+}
+#home-destaque img {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 2%;
+}
+#home-destaque .home-destaque-2fotos {
+	display: flex;
+	justify-content: space-between;
+}
+#home-destaque .home-destaque-2fotos img{
+	width: 50%;
+	height: 50%;
+	padding: 2%;
+}
+
+
+*/

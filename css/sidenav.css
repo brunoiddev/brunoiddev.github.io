@@ -9,7 +9,7 @@
     background-color: #111; /* Black*/
     opacity: 0.9;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 75px; /* Place content 60px from the top */
+    padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 .sidenav-container {
@@ -30,7 +30,7 @@
 }
 /* The navigation menu links */
 .sidenav a {
-    padding: 10px 0px;
+    padding: 8px 0px;
     text-decoration: none;
     font-family: robotoLight;
     font-size: 16px;
@@ -51,14 +51,6 @@
     color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
